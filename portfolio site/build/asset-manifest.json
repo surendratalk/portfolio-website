@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f55760fc.css",
+    "main.js": "/static/js/main.6af3715d.js",
+    "static/js/787.ce3a4990.chunk.js": "/static/js/787.ce3a4990.chunk.js",
+    "static/media/NFT_market.png": "/static/media/NFT_market.f242cce28ed2b84f5424.png",
+    "static/media/yummy.png": "/static/media/yummy.a9ffc7651ba3c964b3fc.png",
+    "static/media/Hero-bg2.jpg": "/static/media/Hero-bg2.de3f02f60566b88cf1d7.jpg",
+    "static/media/UC_old.png": "/static/media/UC_old.9cc35c324cfba866486a.png",
+    "static/media/UC_new.png": "/static/media/UC_new.50d6c9941099664cf400.png",
+    "static/media/vector-2.png": "/static/media/vector-2.e0c263de58828f300cda.png",
+    "static/media/portfolio.png": "/static/media/portfolio.058e2ecdc6855a421a20.png",
+    "static/media/favicon.png": "/static/media/favicon.10718e83906226014539.png",
+    "static/media/Hero-bg4.jpg": "/static/media/Hero-bg4.00d253d85db32418432c.jpg",
+    "static/media/vector-1.png": "/static/media/vector-1.f346f5e8d42cb43abe04.png",
+    "static/media/Hero-bg3.png": "/static/media/Hero-bg3.8d4dc9d9745be9b54ef8.png",
+    "index.html": "/index.html",
+    "main.f55760fc.css.map": "/static/css/main.f55760fc.css.map",
+    "main.6af3715d.js.map": "/static/js/main.6af3715d.js.map",
+    "787.ce3a4990.chunk.js.map": "/static/js/787.ce3a4990.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55760fc.css",
+    "static/js/main.6af3715d.js"
+  ]
+}
