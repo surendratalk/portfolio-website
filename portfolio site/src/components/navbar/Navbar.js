@@ -36,16 +36,16 @@ function Navbar(props) {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav mx-auto mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" style={{ color: 'whitesmoke' }} href='/' >About Me</a>
+                                        <a className="nav-link active" aria-current="page" style={{ color: 'whitesmoke' }} href='#about' >About Me</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" style={{ color: 'whitesmoke' }} href='/' >My Bio</a>
+                                        <a className="nav-link" style={{ color: 'whitesmoke' }} href='#bio' >My Bio</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" style={{ color: 'whitesmoke' }} href='/' >Contact Me</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" style={{ color: 'whitesmoke' }} href='/' >My Projects</a>
+                                        <a className="nav-link" style={{ color: 'whitesmoke' }} href='#projects' >My Projects</a>
                                     </li>
                                 </ul>
                             </div>

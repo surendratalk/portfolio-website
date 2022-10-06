@@ -24,7 +24,7 @@ function Bio() {
 
     return (
         <>
-            <section className='py-5' style={parallex}>
+            <section className='py-5' id ="bio" style={parallex}>
                 <div className="container">
                     <h1 className='text-center'>My Bio</h1>
                     <div className="row pt-5">

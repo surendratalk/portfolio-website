@@ -25,7 +25,7 @@ function Home() {
     return (
         <>
             <section style={parallex} >
-                <div className="container" style={{paddingTop: '5rem', paddingBottom: '5rem'}}>
+                <div className="container" style={{paddingTop: '5rem', paddingBottom: '7rem'}}>
                     <div className="row">
                         <div className="col-lg-7 col-md-6 col-sm-12">
                             <h1> Hi, <br />I'm Anurag,</h1>
