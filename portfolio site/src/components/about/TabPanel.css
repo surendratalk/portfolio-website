@@ -1,9 +1,9 @@
 .navtabItem {
     cursor: pointer;
     border-radius: 5rem;
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 20px;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; */
     transition-duration: 0.7s;
 }
 
@@ -14,7 +14,7 @@
 
 .navtabItem:hover {
     /* color: rgb(128, 113, 113); */
-    
+
     font-weight: bolder;
 }
 

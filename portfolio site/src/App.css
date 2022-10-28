@@ -7,6 +7,19 @@
   cursor: url(./images/cursor.png), auto;
 }
 
+
+html {
+  --section-background-color: linear-gradient(to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(203, 179, 106, 0.711));
+
+  --image-gradient: linear-gradient(to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(203, 179, 106, 0.863));
+
+  --imp-text-color: azure;
+}
+
 body {
   font-family: 'Nova Round', cursive;
   background-color: #171717;
@@ -14,8 +27,14 @@ body {
   overflow-x: hidden;
 }
 
+.link {
+  text-decoration: none;
+  color: rgba(203, 179, 106);
+}
+
+
 .fadeIn {
-  animation: 1s ease-out fadeIn 1;
+  animation: 1.5s ease-out fadeIn 1;
 }
 
 @keyframes fadeIn {
@@ -31,7 +50,7 @@ body {
 }
 
 .fadeInDown {
-  animation: 1s ease-out fadeInDown 1;
+  animation: 1.5s ease-out fadeInDown 1;
 }
 
 @keyframes fadeInDown {
@@ -47,7 +66,7 @@ body {
 }
 
 .fadeInLeft {
-  animation: 1s ease-out fadeInLeft 1;
+  animation: 1.5s ease-out fadeInLeft 1;
 }
 
 @keyframes fadeInLeft {
@@ -63,7 +82,7 @@ body {
 }
 
 .fadeInRight {
-  animation: 1s ease-out fadeInRight 1;
+  animation: 1.5s ease-out fadeInRight 1;
 }
 
 @keyframes fadeInRight {
@@ -79,7 +98,7 @@ body {
 }
 
 .fadeInUp {
-  animation: 1s ease-out fadeInUp 1;
+  animation: 1.5s ease-out fadeInUp 1;
 }
 
 @keyframes fadeInUp {
@@ -94,15 +113,76 @@ body {
   }
 }
 
-body::-webkit-scrollbar {
-  width: 0px;
+
+.upDown {
+  animation-name: upDown;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
 }
 
-/* body::-webkit-scrollbar-track {
+@keyframes upDown {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 200px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px black;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #229b93;
-  outline: 1px solid #229b93;
-} */
+  /* background-color: #229b93; */
+  background-image: linear-gradient(to top, rgba(203, 179, 106, 0.518), azure);
+  /* background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(160, 186, 12)); */
+  outline: 0px solid #229b93;
+}
+
+/* hand wave */
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}

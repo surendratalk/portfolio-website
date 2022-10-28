@@ -1,11 +1,23 @@
 .viewProfile {
-    border: 2px solid #cbb26a;
-    color: aliceblue;
+    border: 2px solid rgb(203, 178, 106);
+    color: rgb(203, 178, 106);
     text-decoration: none;
     transition-duration: 0.5s;
 }
 
 .viewProfile:hover {
-    background-color: #cbb26a;
+    color: #171717;
+    background-color: azure;
     font-weight: bold;
 }
+
+.field {
+    color: rgb(203, 178, 106);
+    background-color: rgba(240, 255, 255, 0.056) !important;
+    transition-duration: 0.5s;
+}
+
+/* .field:hover {
+    color: rgb(203, 178, 106);
+    background-color: #00000000 !important;
+} */

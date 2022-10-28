@@ -8,7 +8,8 @@
 }
 
 .navtabItem.active {
-    /* color: #171717; */
+    font-weight: bolder !important;
+    color: #171717 !important;
     background-color: rgb(203, 178, 106);
 }
 

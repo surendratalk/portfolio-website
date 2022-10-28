@@ -1,17 +1,26 @@
 .card {
-    background-color: #171717;
+    background-color: #1f1e1e7e;
+    transition-duration: 0.6s;
+    box-shadow: 0px 5px 6px 5px rgba(203, 179, 106, 0.186) ;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 10px 10px rgba(203, 179, 106, 0.186);
 }
 
 .btns{
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 0.8rem;
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
+    color: rgba(203, 179, 106);
+    /* border: 1px solid rgba(203, 179, 106); */
+    box-shadow: 0px 5px 6px 5px rgba(203, 179, 106, 0.208) ;
     transition-duration: 0.6s;
+    cursor: pointer;
 }
 
 .btns:hover {
-    color: #171717;
-    background-color: whitesmoke;
-    border: 1px solid #171717;
+    color: rgba(203, 179, 106);
+    /* background-color: whitesmoke; */
+    box-shadow: 0px 10px 10px 10px #272626 ;
+    /* border: 1px solid #171717; */
 }

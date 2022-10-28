@@ -1,7 +1,58 @@
-.head {
+/* .head {
     max-width: 50rem;
     margin: auto;
     border-radius: 2rem;
     background-color: #282e347a;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+} */
+
+.nav-link {
+    transition-duration: 0.3s;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
+.nav-link:hover {
+    transform: translateY(-2px) !important;
+    color: rgb(203, 178, 106) !important;
+}
+
+.sticky {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    /* border-radius: 2rem; */
+    background-color: rgba(34, 30, 22, 0.542);
+    box-shadow: 0px 10px 10px 0px rgba(203, 179, 106, 0.152) !important;
+    transition: all 0.3s ease-out 0s !important;
+    backdrop-filter: blur(25px) !important;
+}
+
+.head {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    /* padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important; */
+}
+
+.fork-btn-inner {
+    line-height: 1.4em !important;
+    background-color: rgba(203, 179, 106, 0.507)  !important;
+    padding: 0.25rem 1.1rem !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    transition-duration: 0.2s;
+}
+
+.fork-btn-inner:hover {
+    transform: translateY(-2px) !important;
+    background-color: rgb(203, 178, 106)  !important;
+    border-color: rgb(203, 178, 106)  !important;
+}
+
+.fork-btn-inner::after {
+    display: none !important;
+}
+
+.navIcon {
+    color: rgb(203, 178, 105);
+}

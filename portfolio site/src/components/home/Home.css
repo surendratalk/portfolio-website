@@ -1,5 +1,5 @@
 h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 100;
     line-height: 1.5;
     text-transform: uppercase;
@@ -15,8 +15,10 @@ h1 {
 } */
 
 .message {
-    background-color: yellow;
-    color: #333;
+    /* background-color: azure; */
+    /* border-right: 3px solid white; */
+    /* background-color: rgb(160, 186, 12); */
+    color: rgb(203, 178, 106);
     display: block;
     font-weight: 900;
     overflow: hidden;
@@ -24,7 +26,7 @@ h1 {
     padding-left: 0.5rem;
     top: 0.2rem;
     /* left: 270px; */
-    animation: openclose 6s ease-in-out infinite;
+    animation: openclose 8s ease-in-out infinite;
 }
 
 @keyframes openclose {
@@ -38,12 +40,12 @@ h1 {
     }
 
     15% {
-        width: 450px;
+        width: 365px;
     }
 
     30% {
         top: 0.2rem;
-        width: 450px;
+        width: 365px;
     }
 
     33% {
@@ -63,12 +65,12 @@ h1 {
 
     48% {
         top: -4.5rem;
-        width: 450px;
+        width: 379px;
     }
 
     62% {
         top: -4.5rem;
-        width: 450px;
+        width: 379px;
     }
 
     66% {
@@ -85,12 +87,12 @@ h1 {
 
     86% {
         top: -9rem;
-        width: 450px;
+        width: 340px;
     }
 
     95% {
         top: -9rem;
-        width: 450px;
+        width: 340px;
     }
 
     98% {
@@ -105,5 +107,3 @@ h1 {
         text-indent: 0;
     }
 }
-
-
